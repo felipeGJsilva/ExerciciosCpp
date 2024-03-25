@@ -4,7 +4,7 @@ int main(){
 
     // variaveis 
     std::string nome;
-    int numero;
+    int n1;
 
 
     // codificação
@@ -20,10 +20,11 @@ int main(){
 
     printf(" Digite sua idade: ");
 
-    scanf("%d", numero);
+    scanf("%d", &n1);
 
     printf("Sua idade: %d\n ");
     
-    printf("Olá: %s", nome.c_str(), "você tem %d", numero, "anos");
+    printf("Olá: %s", nome.c_str());
+
     return 0;
 }
