@@ -22,7 +22,7 @@ int main(){
 
     scanf("%d", &n1);
 
-    printf("Sua idade: %d\n ");
+    printf("Sua idade: %d\n ", n1);
     
     printf("Olá: %s", nome.c_str());
 
