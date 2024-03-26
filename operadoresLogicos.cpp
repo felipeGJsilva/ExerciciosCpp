@@ -29,7 +29,18 @@ int main(){
     int n6 = 6;
     int mult = 5 * 6;
 
-    printf("Multiplicação: %d - %d =%d\n",n5,n6, mult);
+    printf("Multiplicação: %d * %d =%d\n",n5,n6, mult);
     
+    int n7 = 20;
+    int n8 = 4;
+    int div = n7 / n8;
+
+    printf("Divisão: %d / %d = %d\n",n7,n8, div);
+
+    int n9 = 8;
+    int n10 = 9;
+    int soma3 = n9 + n10;
+    bool result2 = ( soma3 != 17);
+
     return false;
 }
