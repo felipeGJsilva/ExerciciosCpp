@@ -21,10 +21,15 @@ int main(){
 
     int n3 = 7;
     int n4 = 15;
-    int soma2 = n4 - n3;
+    int sub2 = n4 - n3;
 
-    printf("Soma: %d - %d = %d\n",n4 ,n3, soma2);
+    printf("Subtração: %d - %d = %d\n",n4 ,n3, sub2);
 
+    int n5 = 5;
+    int n6 = 6;
+    int mult = 5 * 6;
+
+    printf("Multiplicação: %d - %d =%d\n",n5,n6, mult);
     
     return false;
 }
