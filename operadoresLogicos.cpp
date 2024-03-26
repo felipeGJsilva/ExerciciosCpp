@@ -41,6 +41,6 @@ int main(){
     int n10 = 9;
     int soma3 = n9 + n10;
     bool result2 = ( soma3 != 17);
-
+     printf("Resultado concluido %d\n", result2 );
     return false;
 }
